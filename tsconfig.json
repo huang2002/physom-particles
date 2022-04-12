@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "./types",
+        "outDir": "./js",
+        "rootDir": "./src",
+        "strict": true,
+        "noUnusedLocals": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "paths": {
+            "physom": [
+                "./node_modules/physom/index.d.ts"
+            ],
+            "canvasom": [
+                "./node_modules/canvasom/index.d.ts"
+            ],
+            "3h-event": [
+                "./node_modules/3h-event/index.d.ts"
+            ],
+            "3h-pool": [
+                "./node_modules/3h-pool/index.d.ts"
+            ],
+            "3h-utils": [
+                "./node_modules/3h-utils/index.d.ts"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ]
+}
